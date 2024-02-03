@@ -1,5 +1,5 @@
 Purpose:
-The Python code demonstrates how to implement RankNet algorithm which serves as a search engine optimizer or a ranking system of relevant products/URLS(search results).
+The Python code "RankNet_version_1.py" demonstrates how to implement RankNet algorithm which serves as a search engine optimizer or a ranking system of relevant products/URLS(search results).
 
 Data:
 The data of search results is stored in the form of matrices, where one matrix corresponds to a query,
