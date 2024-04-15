@@ -8,9 +8,6 @@ and the other columns being the features of URLS, which determines the relevant 
 For simplicity, we randomly generate the feature matrix and
 assume the ranking score is the absolute value of the sine of the sum of the square of the feature values.
 
-##Code:
-The main code of this project is RankVet_Version1.py
-
 ##Task:
 The task is to establish a neural network model RankNet that explains the subtle
 relationship between the features of a URL and its relevant score.
