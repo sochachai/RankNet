@@ -8,6 +8,9 @@ and the other columns being the features of URLS, which determines the relevant 
 For simplicity, we randomly generate the feature matrix and
 assume the ranking score is the absolute value of the sine of the sum of the square of the feature values.
 
+##Code:
+The main code of this project is RankVet_Version1.py
+
 ##Task:
 The task is to establish a neural network model RankNet that explains the subtle
 relationship between the features of a URL and its relevant score.
@@ -25,7 +28,7 @@ such as the sigmoid activation class are borrowed from the 2nd reference quoted 
 ##Results:
 1."Decreasing_Cross_Entropy.png" shows the model gets better in ranking in terms of cross entropy loss with the training data.
 2."Test_10_URLS" shows the ranking of test URLS (if the test data is consisted of 10 URLs) by RankNet in comparison with its actual ranking.
-2."Test_5_URLS" shows the ranking of test URLS (if the test data is consisted of 5 URLs) by RankNet in comparison with its actual ranking.
+3."Test_5_URLS" shows the ranking of test URLS (if the test data is consisted of 5 URLs) by RankNet in comparison with its actual ranking.
 
 ##Reference:
 1. From RankNet to LambdaRank to LambdaMART: An Overview
